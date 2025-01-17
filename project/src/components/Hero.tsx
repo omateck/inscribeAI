@@ -45,12 +45,13 @@ export default function Hero() {
           </div>
 
           {/* Main heading with animated gradient text */}
-          <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Create Content That{' '}
-            <span className="inline-block animate-gradient-text bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent bg-300% font-extrabold">
-              Matters
-            </span>
-          </h1>
+          <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-4xl">
+              <h1 className="bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-center text-5xl font-extrabold tracking-tight text-transparent sm:text-7xl">
+                Test Automatic Deployment
+              </h1>
+            </div>
+          </div>
 
           {/* Animated feature list */}
           <div className="mt-6 h-8">
